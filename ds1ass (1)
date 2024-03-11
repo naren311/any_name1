@@ -1,0 +1,193 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "8cb14811-9c5c-4c77-8bd2-9465bd22349b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Convert a integer to a floatig-poit number\n",
+    "\n",
+    "num = 10\n",
+    "\n",
+    "floating = float(num)\n",
+    "\n",
+    "print(floating)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "dad6e006-1ec4-4b2b-a1bd-356e0f30fdea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "31\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Covnert a float to a integer.\n",
+    "\n",
+    "num = 31\n",
+    "\n",
+    "integer = int(num)\n",
+    "\n",
+    "print(integer)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4114adc2-7680-41f3-826c-1a0dc4a3cba3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "32\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Covert a integer to a strig.\n",
+    "\n",
+    "num = 32\n",
+    "\n",
+    "string = str(num)\n",
+    "\n",
+    "print(string)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "58e49038-d274-4100-8e70-7aaa6e04247d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('naren', 21, 'hyd')\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Covert a li%t to a tuple.\n",
+    "\n",
+    "my_list = [\"naren\", 21, \"hyd\"]\n",
+    "tuple_name = tuple(my_list)\n",
+    "print(tuple_name)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "2e5bed91-d289-4920-bcea-09c79dafe8c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('naren', 23, 'hyd')\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Covert a tuple to a li%t.\n",
+    "\n",
+    "tuple_name = (\"naren\" ,23,\"hyd\")\n",
+    "my_list = (tuple_name)\n",
+    "print(my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "cecf2d83-9767-450f-8330-c789fc0e8e32",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0b110101001\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Covert a decimal umber to biary.\n",
+    "\n",
+    "decimal_num = 425\n",
+    "binary = bin(decimal_num)\n",
+    "print(binary)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "cf979cfb-fd4f-4942-ad08-fe278e232b58",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "boolean num 13 is True\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Covert a o-zero umber to boolean.\n",
+    "\n",
+    "num = 13\n",
+    "boolean = bool(num)\n",
+    "print(\"boolean num\" , num, \"is\",boolean)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5d163771-fc27-4ef7-a024-6e93d28801b0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
